@@ -26,12 +26,17 @@
     border-radius:5px;
     font-size:20px;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
  /*main style*/
 header{
-    background-color: #FFF8F3;
+    background-color: #fff8f3;
+    background: url(../images/developer.png),
+    url(../images/header_bg.png),#FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -61,4 +66,26 @@ nav .menu a{
     text-decoration:none;
 
 }
+#banner{
    
+    margin:47px 38px 0 230px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+#banner .banner-content p{
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#banner .banner-content h2{
+    margin-top: 200px;
+}
+#banner .banner-image img{
+    max-width:585px ;
+    vertical-align: middle;
+}
+ 
+    
+ 
