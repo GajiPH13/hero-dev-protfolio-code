@@ -29,6 +29,9 @@
     cursor: pointer;
 
 }
+.text-center{
+    text-align: center;
+}
 
  /*main style*/
 header{
@@ -244,4 +247,54 @@ margin-top: 30px;
     line-height: 28px;
     color:#474747;
     margin-bottom: 10px;
+}
+.text-center{
+    margin-top: 50px;
+}
+.footer{
+    margin:0px auto;
+    margin-top: 113px;
+    width:71%;
+    max-width: 1600px;
+    /*height: 780px;*/
+    display: flex;
+    gap: 116px;
+    background-color: #fff8f3;
+
+}
+.social{
+    margin-left: 230px;
+}
+.socia-heading{
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.socia-text{
+    width: 562px;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    margin-top: 24px;
+    margin-right: 10px;
+}
+
+
+
+.end-btn{
+    margin-bottom: 130px;
+}
+/*.text-deco{
+    text-decoration: none;
+    margin-right: 230px;
+}*/
+.footer form input[type="text"],
+.footer form textarea{
+    width: 461px;
+    padding:18px 31px ;
+    margin-bottom: 24px;
+    border:none;
+    border-radius: 5px;
+    color:#757575;
 }
